@@ -6,18 +6,8 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Welcome to my website!
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className="Name"> Sunil Rao </div>
+        <div className="Designation"> Software Developer at <a target="_blank" href='https://www.microsoft.com'>Microsoft</a> </div>
       </header>
     </div>
   );
