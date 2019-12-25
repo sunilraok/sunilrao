@@ -10,7 +10,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 15vh;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,7 +20,7 @@
 }
 
 .Name {
-  font-size: calc(10px + 2vmin);
+  font-size: calc(20px + 2vmin);
   margin: 5px;
 }
 
