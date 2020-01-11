@@ -1,5 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
+import twitterLogo from './images/twitter.324dwr32.png';
+import githubLogo from './images/octocat.d2ggb5d9.png';
 import './App.css';
 
 const App: React.FC = () => {
@@ -7,8 +8,19 @@ const App: React.FC = () => {
     <div className="App">
       <header className="App-header">
         <div className="Name"> Sunil Rao </div>
-        <div className="Designation"> Software Developer at <a target="_blank" href='https://www.microsoft.com'>Microsoft</a> </div>
+        <div className="Designation"> Software Engineer at <a target="_blank" href='https://www.microsoft.com' className="Microsoft">Microsoft</a> </div>
+        <div className="SocialLinks">
+          <a className="SocialLink" href="https://twitter.com/sunilrao_k" target="_blank" rel="noopener">
+            <img src={twitterLogo}/>
+          </a>
+          <a className="SocialLink" href="https://github.com/sunilraok" target="_blank" rel="noopener">
+            <img src={githubLogo}/>
+          </a>
+        </div>
       </header>
+      <div className="App-body">
+        <div>I am passionate about Systems and Artificial Intelligence.</div>
+      </div>
     </div>
   );
 }

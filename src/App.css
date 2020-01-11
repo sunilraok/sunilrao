@@ -9,14 +9,24 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 20vh;
+  background-color: #ffffff;
+  min-height: 30vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #0c0552;
+}
+
+.App-body {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(2px + 2vmin);
+  color: #0c0552;
 }
 
 .Name {
@@ -29,8 +39,28 @@
   margin: 5px;
 }
 
+.SocialLinks {
+  float: left;
+  padding: 1em;
+}
+
+.SocialLink {
+  padding: 1em;
+}
+
 .App-link {
   color: #61dafb;
+}
+
+img {
+  width: 23px;
+  height: 23px;
+}
+
+.Microsoft {
+  color: #00171d;
+  text-decoration-line: none;
+  font-weight: bold;
 }
 
 @keyframes App-logo-spin {
