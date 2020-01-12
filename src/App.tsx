@@ -8,12 +8,12 @@ const App: React.FC = () => {
     <div className="App">
       <header className="App-header">
         <div className="Name"> Sunil Rao </div>
-        <div className="Designation"> Software Engineer at <a target="_blank" href='https://www.microsoft.com' className="Microsoft">Microsoft</a> </div>
+        <div className="Designation"> Software Engineer at <a target="_blank" href='https://www.microsoft.com' className="Microsoft" rel="noopener noreferrer">Microsoft</a> </div>
         <div className="SocialLinks">
-          <a className="SocialLink" href="https://twitter.com/sunilrao_k" target="_blank" rel="noopener">
+          <a className="SocialLink" href="https://twitter.com/sunilrao_k" target="_blank" rel="noopener noreferrer">
             <img src={twitterLogo}/>
           </a>
-          <a className="SocialLink" href="https://github.com/sunilraok" target="_blank" rel="noopener">
+          <a className="SocialLink" href="https://github.com/sunilraok" target="_blank" rel="noopener noreferrer">
             <img src={githubLogo}/>
           </a>
         </div>
