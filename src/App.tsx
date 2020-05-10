@@ -11,10 +11,10 @@ const App: React.FC = () => {
         <div className="Designation"> Software Engineer at <a target="_blank" href='https://www.microsoft.com' className="Microsoft" rel="noopener noreferrer">Microsoft</a> </div>
         <div className="SocialLinks">
           <a className="SocialLink" href="https://twitter.com/sunilrao_k" target="_blank" rel="noopener noreferrer">
-            <img src={twitterLogo}/>
+            <img src={twitterLogo} alt="twitter logo"/>
           </a>
           <a className="SocialLink" href="https://github.com/sunilraok" target="_blank" rel="noopener noreferrer">
-            <img src={githubLogo}/>
+            <img src={githubLogo} alt="github logo"/>
           </a>
         </div>
       </header>
