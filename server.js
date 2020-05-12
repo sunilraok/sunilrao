@@ -1,14 +1,11 @@
 console.log("Server starting");
 
-var express = require('express'),
-app = express(),
-port = 80;
+var express = require('express');
+const app = express();
+const port = process.env.PORT || 1337;
 
 app.use(express.static('build'));
-
-if (! module.parent) {
-  app.listen(port);
-}
+app.listen(port);
 
 module.exports = app
 
