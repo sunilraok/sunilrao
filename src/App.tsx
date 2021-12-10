@@ -19,7 +19,7 @@ const App: React.FC = () => {
         </div>
       </header>
       <div className="App-body">
-        <div>I am passionate about Systems and Artificial Intelligence.</div>
+        <div>Passionate about Systems and Artificial Intelligence.</div>
       </div>
     </div>
   );
