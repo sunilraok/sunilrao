@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/sunilrao/static/css/main.ba4c8268.chunk.css",
-    "main.js": "/sunilrao/static/js/main.1f3a0d89.chunk.js",
-    "main.js.map": "/sunilrao/static/js/main.1f3a0d89.chunk.js.map",
-    "runtime-main.js": "/sunilrao/static/js/runtime-main.c1a8d8a9.js",
-    "runtime-main.js.map": "/sunilrao/static/js/runtime-main.c1a8d8a9.js.map",
-    "static/js/2.d0f9d098.chunk.js": "/sunilrao/static/js/2.d0f9d098.chunk.js",
-    "static/js/2.d0f9d098.chunk.js.map": "/sunilrao/static/js/2.d0f9d098.chunk.js.map",
-    "index.html": "/sunilrao/index.html",
-    "precache-manifest.79fcd9b625e0c23a854f15c0f0f9b7a2.js": "/sunilrao/precache-manifest.79fcd9b625e0c23a854f15c0f0f9b7a2.js",
-    "service-worker.js": "/sunilrao/service-worker.js",
-    "static/css/main.ba4c8268.chunk.css.map": "/sunilrao/static/css/main.ba4c8268.chunk.css.map",
-    "static/js/2.d0f9d098.chunk.js.LICENSE.txt": "/sunilrao/static/js/2.d0f9d098.chunk.js.LICENSE.txt",
-    "static/media/octocat.d2ggb5d9.png": "/sunilrao/static/media/octocat.d2ggb5d9.b2ffb3a3.png",
-    "static/media/twitter.324dwr32.png": "/sunilrao/static/media/twitter.324dwr32.5c14852d.png"
+    "main.css": "/static/css/main.ba4c8268.chunk.css",
+    "main.js": "/static/js/main.0281736a.chunk.js",
+    "main.js.map": "/static/js/main.0281736a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.79d6ca13.js",
+    "runtime-main.js.map": "/static/js/runtime-main.79d6ca13.js.map",
+    "static/js/2.d0f9d098.chunk.js": "/static/js/2.d0f9d098.chunk.js",
+    "static/js/2.d0f9d098.chunk.js.map": "/static/js/2.d0f9d098.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e0e5d6381098d816097073fdf1318057.js": "/precache-manifest.e0e5d6381098d816097073fdf1318057.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.ba4c8268.chunk.css.map": "/static/css/main.ba4c8268.chunk.css.map",
+    "static/js/2.d0f9d098.chunk.js.LICENSE.txt": "/static/js/2.d0f9d098.chunk.js.LICENSE.txt",
+    "static/media/octocat.d2ggb5d9.png": "/static/media/octocat.d2ggb5d9.b2ffb3a3.png",
+    "static/media/twitter.324dwr32.png": "/static/media/twitter.324dwr32.5c14852d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c1a8d8a9.js",
+    "static/js/runtime-main.79d6ca13.js",
     "static/js/2.d0f9d098.chunk.js",
     "static/css/main.ba4c8268.chunk.css",
-    "static/js/main.1f3a0d89.chunk.js"
+    "static/js/main.0281736a.chunk.js"
   ]
 }
