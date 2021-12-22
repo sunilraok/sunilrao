@@ -2,7 +2,7 @@
   "name": "sunilrao",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sunilraok.github.io/sunilrao",
+  "homepage": "https://sunilraok.github.io",
   "devDependencies": {
     "gh-pages": "3.2.3"
   },

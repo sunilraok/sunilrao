@@ -1,6 +1,7 @@
 import React from 'react';
 import twitterLogo from './images/twitter.324dwr32.png';
 import githubLogo from './images/octocat.d2ggb5d9.png';
+import hashnodeLogo from './images/hashnode_logo.png';
 import './App.css';
 
 const App: React.FC = () => {
@@ -16,6 +17,9 @@ const App: React.FC = () => {
           <a className="SocialLink" href="https://github.com/sunilraok" target="_blank" rel="noopener noreferrer">
             <img src={githubLogo} alt="github logo"/>
           </a>
+          <a className="SocialLink" href="https://blog.sunilrao.in" target="_blank" rel="noopener noreferrer">
+            <img src={hashnodeLogo} alt="hashnode logo"/>
+          </a>        
         </div>
       </header>
       <div className="App-body">
