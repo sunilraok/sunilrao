@@ -3,8 +3,25 @@ import twitterLogo from './images/twitter.324dwr32.png';
 import githubLogo from './images/octocat.d2ggb5d9.png';
 import hashnodeLogo from './images/hashnode_logo.png';
 import './App.css';
+import { useMsal } from '@azure/msal-react';
+
+const loginRequest = {
+  scopes: ["User.Read"]
+};
 
 const App: React.FC = () => {
+  const { instance, accounts } = useMsal();
+
+  const authenticate = () => {
+    instance.loginRedirect(loginRequest).catch(e => {
+      console.log(e);
+    });
+    
+    instance.acquireTokenSilent({ ...loginRequest, account: accounts[0] }).then(response => {
+      console.log("Auth response: ", response.accessToken);
+    });
+  }
+
   return (
     <div className="App">
       <header className="App-header">
@@ -25,8 +42,13 @@ const App: React.FC = () => {
       <div className="App-body">
         <div>Passionate about Systems and Artificial Intelligence.</div>
       </div>
+      <button onClick={authenticate}>
+        Login
+      </button>
     </div>
   );
 }
+
+// App Id: 24e462d1-d621-4fdf-9bde-40f589cd9086
 
 export default App;
