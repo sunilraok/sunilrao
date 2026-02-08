@@ -70,7 +70,7 @@ const App: React.FC = () => {
           <div className="about-content">
             <div className="about-text">
               <p>I'm a Software Engineer at Microsoft with a deep passion for building scalable systems and exploring the frontiers of Artificial Intelligence. My journey in tech has been driven by curiosity and a desire to solve complex problems that make a real impact.</p>
-              <p>I specialize in developing robust backend systems, implementing machine learning solutions, and creating efficient algorithms that power modern applications. When I'm not coding, you can find me writing technical articles, contributing to open-source projects, or exploring the latest advancements in AI and distributed systems.</p>
+              <p>I specialize in developing robust full-stack systems and creating efficient algorithms that power modern applications. When I'm not coding, you can find me exploring the latest advances in AI and distributed systems.</p>
             </div>
           </div>
         </div>
