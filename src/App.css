@@ -1,15 +1,15 @@
-/* CSS Variables for Professional Theme */
+/* CSS Variables for Circuit Theme */
 :root {
-  --primary-color: #2563eb;
-  --secondary-color: #1e40af;
-  --accent-color: #3b82f6;
-  --text-primary: #1f2937;
-  --text-secondary: #6b7280;
-  --text-light: #9ca3af;
+  --primary-color: #5b4fe9;
+  --secondary-color: #2e2a6b;
+  --accent-color: #ff3d81;
+  --text-primary: #1b1730;
+  --text-secondary: #55516f;
+  --text-light: #9c98b8;
   --bg-primary: #ffffff;
-  --bg-secondary: #f9fafb;
-  --bg-accent: #f3f4f6;
-  --border-color: #e5e7eb;
+  --bg-secondary: #f5f4ff;
+  --bg-accent: #edebfb;
+  --border-color: #e2dff5;
   --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
   --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
@@ -128,8 +128,8 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: radial-gradient(circle at 20% 50%, rgba(37, 99, 235, 0.1) 0%, transparent 50%),
-              radial-gradient(circle at 80% 80%, rgba(59, 130, 246, 0.05) 0%, transparent 50%);
+  background: radial-gradient(circle at 20% 50%, rgba(91, 79, 233, 0.1) 0%, transparent 50%),
+              radial-gradient(circle at 80% 80%, rgba(255, 61, 129, 0.06) 0%, transparent 50%);
   pointer-events: none;
 }
 
