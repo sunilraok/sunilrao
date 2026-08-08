@@ -215,7 +215,7 @@ const App: React.FC = () => {
 
       <footer className="footer">
         <div className="container">
-          <p>&copy; 2024 Sunil Rao. Built with React and TypeScript.</p>
+          <p>&copy; 2026 Sunil Rao. Built with React and TypeScript.</p>
         </div>
       </footer>
     </div>
