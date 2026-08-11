@@ -91,7 +91,7 @@ const App: React.FC = () => {
             </div>
             <p className="hero-tagline">Passionate about Systems and Artificial Intelligence</p>
             <div className="hero-social">
-              <a className="social-link" href="https://twitter.com/sunilrao_k" target="_blank" rel="noopener noreferrer">
+              <a className="social-link" href="https://x.com/sunilrao_k" target="_blank" rel="noopener noreferrer">
                 <img src={twitterLogo} alt="Twitter"/>
               </a>
               <a className="social-link" href="https://github.com/sunilraok" target="_blank" rel="noopener noreferrer">
@@ -161,8 +161,7 @@ const App: React.FC = () => {
                 <span className="skill-tag">TypeScript</span>
                 <span className="skill-tag">Python</span>
                 <span className="skill-tag">JavaScript</span>
-                <span className="skill-tag">Go</span>
-                <span className="skill-tag">C++</span>
+                <span className="skill-tag">Java</span>
               </div>
             </div>
             <div className="skill-category">
@@ -172,18 +171,7 @@ const App: React.FC = () => {
                 <span className="skill-tag">Node.js</span>
                 <span className="skill-tag">Docker</span>
                 <span className="skill-tag">Kubernetes</span>
-                <span className="skill-tag">AWS</span>
                 <span className="skill-tag">Azure</span>
-              </div>
-            </div>
-            <div className="skill-category">
-              <h3>AI/ML</h3>
-              <div className="skill-tags">
-                <span className="skill-tag">TensorFlow</span>
-                <span className="skill-tag">PyTorch</span>
-                <span className="skill-tag">Scikit-learn</span>
-                <span className="skill-tag">NLP</span>
-                <span className="skill-tag">Computer Vision</span>
               </div>
             </div>
           </div>
@@ -198,7 +186,7 @@ const App: React.FC = () => {
             <div className="contact-info">
               <a href="mailto:your-email@example.com" className="contact-link">Send me an email</a>
               <div className="contact-social">
-                <a className="social-link large" href="https://twitter.com/sunilrao_k" target="_blank" rel="noopener noreferrer">
+                <a className="social-link large" href="https://x.com/sunilrao_k" target="_blank" rel="noopener noreferrer">
                   <img src={twitterLogo} alt="Twitter"/>
                 </a>
                 <a className="social-link large" href="https://github.com/sunilraok" target="_blank" rel="noopener noreferrer">
