@@ -158,10 +158,10 @@ const App: React.FC = () => {
             <div className="skill-category">
               <h3>Languages</h3>
               <div className="skill-tags">
-                <span className="skill-tag">TypeScript</span>
-                <span className="skill-tag">Python</span>
                 <span className="skill-tag">JavaScript</span>
+                <span className="skill-tag">TypeScript</span>
                 <span className="skill-tag">Java</span>
+                <span className="skill-tag">Python</span>
               </div>
             </div>
             <div className="skill-category">
