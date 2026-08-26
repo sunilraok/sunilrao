@@ -89,7 +89,6 @@ const App: React.FC = () => {
             <div className="hero-designation">
               Software Engineer at <a target="_blank" href='https://www.microsoft.com' className="microsoft-link" rel="noopener noreferrer">Microsoft</a>
             </div>
-            <p className="hero-tagline">Passionate about Systems and Artificial Intelligence</p>
             <div className="hero-social">
               <a className="social-link" href="https://x.com/sunilrao_k" target="_blank" rel="noopener noreferrer">
                 <img src={twitterLogo} alt="Twitter"/>
