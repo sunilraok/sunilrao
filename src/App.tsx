@@ -128,7 +128,7 @@ const App: React.FC = () => {
               <div className="timeline-content">
                 <h3>Software Engineer</h3>
                 <h4>Microsoft</h4>
-                <p>Working on cutting-edge systems and AI solutions at scale.</p>
+                <p>Working on cutting-edge systems and AI solutions at scale in M365</p>
               </div>
             </div>
           </div>
